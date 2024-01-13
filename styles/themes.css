@@ -4,3 +4,118 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark {
+  --main-fonts: "PressStart2P-Regular";
+  --accent-fonts: "Inter-Variable";
+  --title-font-weight: 785;
+  --subtitile-font-weight: 465;
+  --accent-color: #00CC14;
+  --animation-color: #000;
+  --background-color: #000;
+  --label-shadow-color: #000;
+  --color-contour: #00CC14;
+  --color-fill: red;
+  --background-image: 
+  repeating-linear-gradient(
+    to bottom,
+    #000 0px,
+    #000 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+
+  repeating-linear-gradient(
+    to right,
+    #000 0px,
+    #000 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  
+  linear-gradient(
+    to bottom,
+    #007f0c,
+    #004306
+  );
+  --text-color: var(--text-color-dark);
+}
+
+
+:root.theme-light{
+  --main-fonts: "PressStart2P-Regular";
+  --accent-fonts: "Inter-Variable";
+  --title-font-weight: 700;
+  --subtitile-font-weight: 400;
+  --accent-color: #000000;
+  --animation-color: #fff;
+  --background-color: #fff;
+  --color-contour: #000;
+  --color-fill: red;
+  --label-shadow-color: #fff;
+  --text-color: var(--text-color-light);
+  --background-image: 
+  repeating-linear-gradient(
+    to bottom,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+
+  repeating-linear-gradient(
+    to right,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  
+  linear-gradient(
+    to bottom,
+    #e7e7e7,
+    #1a1a1a
+  );
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root{
+    --main-fonts: "PressStart2P-Regular";
+    --accent-fonts: "Inter-Variable";
+    --title-font-weight: 785;
+    --subtitile-font-weight: 465;
+    --accent-color: #00CC14;
+    --animation-color: #000;
+    --background-color: #000;
+    --label-shadow-color: #000;
+    --color-contour: #00CC14;
+    --color-fill: red;
+    --background-image: 
+    repeating-linear-gradient(
+      to bottom,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+  
+    repeating-linear-gradient(
+      to right,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    
+    linear-gradient(
+      to bottom,
+      #007f0c,
+      #004306
+    );
+  }
+}
+
+
+
