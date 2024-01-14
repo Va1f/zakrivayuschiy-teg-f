@@ -320,6 +320,10 @@
 }
 
 @media (width < 375px) {
+  .page {
+    min-height: 100vh;
+  }
+  
   .header {
     min-width: 320px;
     padding: 120px 0 25px;
