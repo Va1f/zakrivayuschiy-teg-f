@@ -14,10 +14,28 @@
   --label-shadow-color: #000;
   --color-contour: #00CC14;
   --color-fill: red;
-  --background-image:  
-  repeating-linear-gradient(to right, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-  repeating-linear-gradient(to bottom, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-  linear-gradient(to bottom, #007f0c .01%, #004306);
+  --background-image: 
+  repeating-linear-gradient(
+    to bottom,
+    #000 0px,
+    #000 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+
+  repeating-linear-gradient(
+    to right,
+    #000 0px,
+    #000 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  
+  linear-gradient(
+    to bottom,
+    #007f0c,
+    #004306
+  );
   --text-color: var(--text-color-dark);
 }
 
@@ -33,10 +51,27 @@
   --label-shadow-color: #fff;
   --text-color: var(--text-color-light);
   --background-image: 
-  repeating-linear-gradient(to right, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-      repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-      linear-gradient(to bottom, #e7e7e7 .01%, #1a1a1a);
+  repeating-linear-gradient(
+    to right,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
 
+  repeating-linear-gradient(
+    to bottom,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  
+  linear-gradient(
+    to bottom,
+    #e7e7e7,
+    #1a1a1a
+  );
 }
 
 
@@ -52,10 +87,27 @@
     --color-contour: #00CC14;
     --color-fill: red;
     --background-image: 
-    repeating-linear-gradient(to right, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-    repeating-linear-gradient(to bottom, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
-    linear-gradient(to bottom, #007f0c .01%, #004306);
-    --text-color: var(--text-color-dark);
+    repeating-linear-gradient(
+      to bottom,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+  
+    repeating-linear-gradient(
+      to right,
+      #000 0px,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    
+    linear-gradient(
+      to bottom,
+      #007f0c,
+      #004306
+    );
   }
 }
 
