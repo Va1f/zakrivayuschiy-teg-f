@@ -114,12 +114,12 @@
 }
 
 .card {
-  inline-size:clamp(320px, 90%, 696px);
   margin: 0 auto;
   margin-top:54px ;
   border: 2px solid var(--accent-color);
   font-size: 18px;
   background-color: var(--background-color);
+  inline-size:clamp(320px, 90%, 696px);
 }
 
 .container__label__image {
@@ -196,10 +196,10 @@
 }
 
 .buttons__wrapper {
-  margin: 25px;
   display: flex;
   justify-content: end;
   gap: 12px;
+  margin: 25px;
 }
 
 .button {
@@ -247,7 +247,6 @@
 }
 
 .card__icon-button {
-  cursor: pointer;
   position: relative;
   border: none;
   background: none;
@@ -255,8 +254,8 @@
 }
 
 .card__icon-button:focus-visible {
-  border: 2px solid var(--accent-color);
   margin: -2px;
+  border: 2px solid var(--accent-color);
 }
 
 .card__icon-button:focus {
@@ -323,8 +322,8 @@
 
 @media (width < 375px) {
   .header {
-    padding: 120px 0 25px;
     min-width: 320px;
+    padding: 120px 0 25px;
   }
 
   .header__title {
@@ -337,11 +336,11 @@
   
   .button__footer {
     flex-direction: column;
-    margin: 0 auto;
     justify-content: space-between;
     gap: 5px;
     width: 306px;
     height: 80px;
+    margin: 0 auto;
     padding: 15px 0; 
   }
 
